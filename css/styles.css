@@ -178,113 +178,79 @@ Animation
 */
 
 @keyframes bounce {
-  0%{
-
+  0% {
     transform: scale(1);
-
   }
 
-  50%{
-
+  50% {
     transform: scale(2);
-
   }
 
-  100%{
-
+  100% {
     transform: scale(1);
-
   }
 }
 
 @keyframes slideFromRight {
-  0%{
-
+  0% {
     transform: translateX(1000px);
     opacity: 0;
-
   }
 
-  50%{
-
+  50% {
     transform: translateX(-200px);
     opacity: 0.5;
-
   }
 
-  75%{
-
+  75% {
     transform: translateX(50px);
     opacity: 0.75;
-
-
   }
 
-  100%{
-
+  100% {
     transform: translateX(0px);
     opacity: 1;
-
   }
 }
 
-
-
 @keyframes slideFromLeft {
-  0%{
-
+  0% {
     transform: translateX(-1000px);
     opacity: 0;
-
   }
 
-  50%{
-
+  50% {
     transform: translateX(200px);
     opacity: 0.5;
-
   }
 
-  75%{
-
+  75% {
     transform: translateX(-50px);
     opacity: 0.75;
-
-
   }
 
-  100%{
-
+  100% {
     transform: translateX(0px);
     opacity: 1;
-
   }
 }
 
 @keyframes show {
-  0%{
-
+  0% {
     transform: scale(1.5);
     opacity: 0;
-
   }
 
-  50%{
-
+  50% {
     transform: scale(2);
     opacity: 0.5;
-
   }
 
-  100%{
-
+  100% {
     transform: scale(1);
     opacity: 1;
-
   }
 }
-
-
 
 /*
 ================================
@@ -329,11 +295,9 @@ Navbar
   transform: translate(0);
 }
 
-
 .navbar-header {
   text-align: right;
   padding-right: 1rem;
-
 }
 
 .nav-close {
@@ -368,14 +332,12 @@ Navbar
   border-left: 0.25rem solid var(--clr-primary);
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .navbar {
     width: 30vw;
     max-width: 20rem;
   }
 }
-
-
 
 /*
 ================================
@@ -443,7 +405,7 @@ Content Divider
   background: linear-gradient(
     to left,
     var(--clr-primary),
-    #e9b949,
+    #e9b950,
     var(--clr-primary)
   );
 }
@@ -596,12 +558,12 @@ Products Section
 }
 
 @media screen and (min-width: 1200px) {
-  .products-info{
+  .products-info {
     float: left;
     width: 30%;
   }
 
-  .products-inventory{
+  .products-inventory {
     float: left;
     width: 70%;
   }
@@ -610,7 +572,6 @@ Products Section
     margin-bottom: 0;
     padding: 0 1rem;
   }
-
 }
 
 /*
@@ -677,22 +638,18 @@ Services Section
 }
 
 @media screen and (min-width: 768px) {
-
   .service-card {
     float: left;
     width: 45%;
     margin-right: 5%;
   }
-
 }
 
 @media screen and (min-width: 992px) {
-
   .service-card {
     width: 30%;
     margin-right: 3.33%;
   }
-
 }
 
 /*
@@ -700,7 +657,6 @@ Services Section
 Contact Section
 ================================
 */
-
 
 .contact {
   background: var(--clr-grey-10);
@@ -773,7 +729,8 @@ Contact Section
 }
 
 @media screen and (min-width: 992px) {
-  .contact-info, .contact-form {
+  .contact-info,
+  .contact-form {
     float: left;
     width: 50%;
   }
